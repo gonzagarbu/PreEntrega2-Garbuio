@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Obra Social</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+			<div class="logo">
+				<h1>MENU</h1>
+			</div>
+			<nav class="menu">
+				<a href="#">Contacto</a>
+			</nav>
+		</div>
+	</header>
+	<div class="capa"></div>
+
+<!--	--------------->
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		<nav>
+			<a href="/sistema/afiliaciones.html">Afiliaciones</a>
+			<a href="/sistema/nomenclador.html">Nomenclador</a>
+			<a href="/sistema/generarpracticas.html">Carga de Practicas</a>
+			<a href="/index.html">Login</a>
+		</nav>
+		<label for="btn-menu"><h3>X</h3></label>
+	</div>
+</div>
+
+<section class="form-register">
+	<h4>Formulario de afiliacion</h4>
+	<input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+	<input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+    <div>
+    <select name="sexo" id="sexo" class="controls">
+        <option value="masculino">Masculino</option>
+        <option value="femenino">Femenino</option>
+        
+    </select>
+    </div>
+	<input class="controls" type="nacionalidad" name="nacionalidad" id="nacionalidad" placeholder="Ingrese su Nacionalidad">
+    <input class="controls" type="direccion" name="direccion" id="direccion" placeholder="Ingrese su direccion">
+	<input class="botons" type="submit" value="Grabar">
+	<p><a href="/sistema/sistemas.html">Volver al inicio</a></p>
+  </section>
+</body>
+</html>

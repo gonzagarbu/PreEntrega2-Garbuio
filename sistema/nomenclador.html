@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Obra Social</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+			<div class="logo">
+				<h1>MENU</h1>
+			</div>
+			<nav class="menu">
+				<a href="#">Contacto</a>
+			</nav>
+		</div>
+	</header>
+	<div class="capa"></div>
+
+<!--	--------------->
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		<nav>
+			<a href="/sistema/afiliaciones.html">Afiliaciones</a>
+			<a href="/sistema/nomenclador.html">Nomenclador</a>
+			<a href="/sistema/generarpracticas.html">Carga de Practicas</a>
+			<a href="/index.html">Login</a>
+		</nav>
+		<label for="btn-menu"><h3>X</h3></label>
+	</div>
+</div>
+
+<section class="form-register">
+	<h4>Carga Nomenclador Practicas</h4>
+	<input class="controls" type="text" name="numero_afi" id="numero_afi" placeholder="Ingrese su numero de afiliado">
+	<input class="controls" type="text" name="cod_nom" id="cod_nom" placeholder="Ingrese codigo de nomenclador">
+	<input class="controls" type="text" name="nombre_practica" id="nombre_practica" placeholder="Ingrese nombre de la practica">
+	<input class="controls" type="text" name="valor_coseguro" id="valor_coseguro" placeholder="Ingrese valor coseguro">
+	<div>
+        <select name="compejidad" id="complejidad" class="controls">
+            <option value="seleccione">SELECCIONE COMPLEJIDAD</option>
+            <option value="masculino">BAJA</option>
+            <option value="masculino">MEDIA</option>
+            <option value="masculino">ALTA</option>
+            
+        </select>
+        </div>
+	<input class="botons" type="submit" value="Grabar">
+	<p><a href="/sistema/sistemas.html">Ir a pagina de Inicio</a></p>
+  </section>
+</body>
+</html>
